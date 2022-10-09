@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "lato";
+    src: url("../fonts/Lato/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato/Lato-Bold.woff") format("woff");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+[class*="__container"] {
+    max-width: 810px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(230, 110, 110);
+}
+
+footer {
+    background-color: rgb(137, 137, 226);
+}
+
+h2{
+    font-family: "lato";
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #1E212C;
+    text-align: center;
+}
+img{
+    max-width: 100%;
+}
+
